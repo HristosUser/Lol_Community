@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./candy_game.css">
+  <title>Candy Game</title>
+</head>
+<body>
+  <div class="screen visible">
+    <h2>Game "Eat Candy"</h2>
+    <a href="/index.html" class="home">Home</a>
+    <button class="btn" id="start-btn">Start Game</button>
+  </div>
+  <div class="screen">
+    
+    <h2>Choose your favorite snack</h2>
+    <a href="/index.html" class="home">Home</a>
+    <ul class="sweet-list">
+      <li>
+        <button class="choose-sweet-btn">
+          <p>Donut</p>
+          <img src="img/donut.png" alt="donut">
+        </button>
+      </li>
+      <li>
+        <button class="choose-sweet-btn">
+          <p>Cupcake</p>
+          <img src="img/cupcake.png" alt="cupcake">
+        </button>
+      </li>
+      <li>
+        <button class="choose-sweet-btn">
+          <p>Cake</p>
+          <img src="img/cake-slice.png" alt="cake">
+        </button>
+      </li>
+      <li>
+        <button class="choose-sweet-btn">
+          <p>Candy</p>
+          <img src="img/candy.png" alt="candy">
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div class="screen game-container" id="game-container">
+    <a href="/index.html" class="home game-level">Home</a>
+    <h3 id="time" class="time">Time: 0</h3>
+    <h3 id="score" class="score">Score: 0</h3>
+  </div>
+
+
+
+  <audio src="img/30_catch_the_sweet_assets_bite.mp3" id="bite"></audio>
+<script src="./candy_game.js"></script>
+</body>
+</html>

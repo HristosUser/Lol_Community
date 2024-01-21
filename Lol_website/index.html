@@ -8,6 +8,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Lato&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
   <header class="header">
@@ -136,5 +142,39 @@
       </div>
     </div>
   </div>
+
+  <div class="container ">
+    <div class="game-body">
+      <div class="block_title">
+        Game Stop
+      </div>
+      <p class="p-title-game">You can stop, take a break and play other mini games after hard games.</p>
+      <div class="section-game">
+        <a href="tetris_game/tetris.html" class="game-click">Tetris</a>
+        <a href="candy_game/candy.html" class="game-click">Candy Games</a>
+        <a href="trainer_game/trainer.html" class="game-click">Trainer Keyboards Game</a>
+        <!-- <a href="" class="game-click"></a> -->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="swiper mySwiper">
+      <div class="block_title">
+        Popular Champions
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/Aatrox_0.jpg"></div>
+        <div class="swiper-slide"><img src="img/Aphelios_0.jpg"></div>
+        <div class="swiper-slide"><img src="img/Draven_0.jpg"></div>
+        <div class="swiper-slide"><img src="img/Hecarim_0.jpg"></div>
+        <div class="swiper-slide"><img src="img/Varus_0.jpg"></div>
+        <div class="swiper-slide"><img src="img/Yone_0.jpg"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

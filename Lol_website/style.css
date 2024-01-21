@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #136560;
+  background-color: #88AB8E;
   margin: 0;
   font-family: Jomhuria;
 }
@@ -277,16 +277,64 @@ a {
   }
 }
 
-/* телефоны горизонтально */
-@media (max-width: 767px) {
 
+.game-body {
+  background-color: #2D9596;
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-/* телефоны вертикально */
+.p-title-game {
+  text-align: center;
+  font-size: 60px;
+}
 
+.game-click {
+  background-color: #265073;
+  font-size: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
 
-@media (max-width: 2200px) {
-  .intro {
-    width: 25%;
-  }
+.game-click:hover {
+  color: #265073;
+  background-color: white;
+}
+
+.swiper {
+  margin-top: 100px;
+  width: 1200px;
+  height: 1000px;
+  padding: 100px;
+  height: 100%;
+}
+
+.swiper-slide{
+  text-align: center;
+  font-size: 18px;
+  background-color: #5F6F52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.swiper-slide img{
+  width: 78%;
+  object-fit: cover;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  right: 140px !important; 
+  left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  left: 140px !important; 
+  right: auto;
 }

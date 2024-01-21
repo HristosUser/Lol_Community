@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #86B6F6;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-data {
+  background-color: #B4D4FF;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 440px;
+  border-radius: 10px;
+  border: 2px solid #333;
+  padding: 10px;
+  margin-left: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+#score {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  width: 90%;
+  height: 40px;
+  background-color: #EEF5FF;
+  color: #176B87;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: #176B87;
+  color: #EEF5FF;
+}
+
+.help {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+i {
+  font-size: 12px;
+}
+
+.down {
+  display: block !important; 
+}
+
+.left {
+  margin-right: 40px;
+}
+
+#level{
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 15px;
+  font-family: poppins;
+}
+
+#tetris{
+  border-radius: 5px;
+  margin-top: 50px;
+  display: inline;
+  height: 85vh;
+  border: 3px solid #010101;
+  background-color: #EEEEEE;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.home {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  width: 90%;
+  height: 30px;
+  text-align: center;
+  background-color: #9EB8D9;
+  color: #176B87;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.home:hover {
+  background-color: #176B87;
+  color: #EEF5FF;
+}
